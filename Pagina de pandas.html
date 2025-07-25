@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>PANDANOMICON</title>
+  <link rel="stylesheet" href="panda.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/itemslide@latest/dist/itemslide.min.js"></script>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#" class="logo">P</a>
+  <a href="#">Inicio</a>
+  <a href="#">Nuestro Trabajo</a>
+  <a href="#">Especies</a>
+  <a href="#">Contacto</a>
+</div>
+
+<div id="main">
+  <header>
+    <span class="menu" onclick="openNav()"><i class="fas fa-bars"></i></span>
+  </header>
+
+  <section class="section section-1">
+    <div class="content">
+      <h1>Pandas Rojos</h1>
+      <p>Casi el 50% del hábitat del panda rojo se encuentra en el Himalaya oriental. La pérdida de árboles y bambú está provocando una disminución en su población debido a la deforestación.</p>
+      <a href="#">Haz un cambio</a>
+    </div>
+  </section>
+
+  <section class="section section-2">
+    <div class="content">
+      <h1 class="headline">Últimas Publicaciones</h1>
+      <div id="scrolling">
+        <ul>
+          <li class="card card-1">
+            <div class="box box-left"></div>
+            <div class="box box-right">
+              <h3>Curiosidades</h3>
+              <h2>Los pandas rojos también son llamados "zorros de fuego"</h2>
+              <p>El nombre chino para el panda rojo es "hunho", que significa literalmente zorro de fuego.</p>
+              <a href="https://goo.gl/chdrvt" class="cta">Leer Más</a>
+            </div>
+          </li>
+          <li class="card card-2">
+            <div class="box box-left"></div>
+            <div class="box box-right">
+              <h3>Conservación</h3>
+              <h2>Solo quedan unos 10,000 pandas rojos adultos en libertad</h2>
+              <p>La caza furtiva y la pérdida de hábitat han puesto en peligro a esta especie. Necesitan protección urgente.</p>
+              <a href="https://goo.gl/chdrvt" class="cta">Leer Más</a>
+            </div>
+          </li>
+          <li class="card card-3">
+            <div class="box box-left"></div>
+            <div class="box box-right">
+              <h3>Comportamiento</h3>
+              <h2>A los pandas rojos no les gusta ser molestados</h2>
+              <p>Son animales solitarios que prefieren la tranquilidad de los bosques montañosos lejos del contacto humano.</p>
+              <a href="https://goo.gl/chdrvt" class="cta">Leer Más</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-3">
+    <div class="content">
+      <div class="testimonials">
+        <p>"Me encanta todo lo que ahora sé sobre especies que antes desconocía completamente."</p>
+        <span> - Andrés M. - </span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-4 clearfix">
+    <div class="content">
+      <h1 class="headline">Su Vida</h1>
+      <p class="white">Aunque son clasificados como carnívoros, los pandas rojos se alimentan casi exclusivamente de bambú, complementado con insectos. Su dieta es tan baja en nutrientes que deben pasar hasta 13 horas al día comiendo.</p>
+      <p class="white">El panda rojo fue descubierto en la década de 1820 y originalmente se le llamó simplemente "panda". Décadas después, se descubrió al panda gigante en China, desplazando al panda rojo como el más conocido.</p>
+      <a href="http://mentalfloss.com/article/63578/12-furry-facts-about-red-pandas">Leer Más</a>
+    </div>
+  </section>
+
+  <section class="footer clearfix">
+    <div class="content">
+      <p class="white">Hecho por Yony</p>
+    </div>
+  </section>
+</div>
+
+<script src="pandita.js"></script>
+</body>
+</html>
